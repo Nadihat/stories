@@ -1,0 +1,285 @@
+{
+  "version": "orpg.1.0",
+  "characters": {
+    "char-1749188859-Jl0VUgLDynmces7PuCc6": {
+      "id": "char-1749188859-Jl0VUgLDynmces7PuCc6",
+      "model": "anthropic/claude-2:beta",
+      "modelInfo": {
+        "slug": "anthropic/claude-2",
+        "hf_slug": null,
+        "updated_at": "2025-03-28T03:20:30.853469+00:00",
+        "created_at": "2023-11-22T00:00:00+00:00",
+        "hf_updated_at": null,
+        "name": "Anthropic: Claude v2 (self-moderated)",
+        "short_name": "Claude v2 (self-moderated)",
+        "author": "anthropic",
+        "description": "Claude 2 delivers advancements in key capabilities for enterprises—including an industry-leading 200K token context window, significant reductions in rates of model hallucination, system prompts and a new beta feature: tool use.",
+        "model_version_group_id": null,
+        "context_length": 200000,
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "has_text_output": true,
+        "group": "Claude",
+        "instruct_type": null,
+        "default_system": null,
+        "default_stops": [],
+        "hidden": false,
+        "router": null,
+        "warning_message": null,
+        "permaslug": "anthropic/claude-2",
+        "reasoning_config": null,
+        "features": {},
+        "endpoint": {
+          "id": "f7e14070-d80a-4dbf-b2eb-fac302b54f35",
+          "name": "Anthropic | anthropic/claude-2:beta",
+          "context_length": 200000,
+          "model": {
+            "slug": "anthropic/claude-2",
+            "hf_slug": null,
+            "updated_at": "2025-03-28T03:20:30.853469+00:00",
+            "created_at": "2023-11-22T00:00:00+00:00",
+            "hf_updated_at": null,
+            "name": "Anthropic: Claude v2",
+            "short_name": "Claude v2",
+            "author": "anthropic",
+            "description": "Claude 2 delivers advancements in key capabilities for enterprises—including an industry-leading 200K token context window, significant reductions in rates of model hallucination, system prompts and a new beta feature: tool use.",
+            "model_version_group_id": null,
+            "context_length": 200000,
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "has_text_output": true,
+            "group": "Claude",
+            "instruct_type": null,
+            "default_system": null,
+            "default_stops": [],
+            "hidden": false,
+            "router": null,
+            "warning_message": null,
+            "permaslug": "anthropic/claude-2",
+            "reasoning_config": null,
+            "features": {}
+          },
+          "model_variant_slug": "anthropic/claude-2:beta",
+          "model_variant_permaslug": "anthropic/claude-2:beta",
+          "provider_name": "Anthropic",
+          "provider_info": {
+            "name": "Anthropic",
+            "displayName": "Anthropic",
+            "slug": "anthropic",
+            "baseUrl": "url",
+            "dataPolicy": {
+              "termsOfServiceURL": "https://www.anthropic.com/legal/commercial-terms",
+              "privacyPolicyURL": "https://www.anthropic.com/legal/privacy",
+              "paidModels": {
+                "training": false,
+                "retainsPrompts": true,
+                "retentionDays": 30
+              },
+              "requiresUserIDs": true
+            },
+            "headquarters": "US",
+            "hasChatCompletions": true,
+            "hasCompletions": true,
+            "isAbortable": true,
+            "moderationRequired": true,
+            "editors": [
+              "{}"
+            ],
+            "owners": [
+              "{}"
+            ],
+            "isMultipartSupported": true,
+            "statusPageUrl": "https://status.anthropic.com/",
+            "byokEnabled": true,
+            "icon": {
+              "url": "/images/icons/Anthropic.svg"
+            },
+            "ignoredProviderModels": []
+          },
+          "provider_display_name": "Anthropic",
+          "provider_slug": "anthropic",
+          "provider_model_id": "claude-2.1",
+          "quantization": "unknown",
+          "variant": "beta",
+          "is_free": false,
+          "can_abort": true,
+          "max_prompt_tokens": null,
+          "max_completion_tokens": 4096,
+          "max_prompt_images": null,
+          "max_tokens_per_image": null,
+          "supported_parameters": [
+            "max_tokens",
+            "temperature",
+            "top_p",
+            "top_k",
+            "stop"
+          ],
+          "is_byok": false,
+          "moderation_required": false,
+          "data_policy": {
+            "termsOfServiceURL": "https://www.anthropic.com/legal/commercial-terms",
+            "privacyPolicyURL": "https://www.anthropic.com/legal/privacy",
+            "paidModels": {
+              "training": false,
+              "retainsPrompts": true,
+              "retentionDays": 30
+            },
+            "requiresUserIDs": true,
+            "training": false,
+            "retainsPrompts": true,
+            "retentionDays": 30
+          },
+          "pricing": {
+            "prompt": "0.000008",
+            "completion": "0.000024",
+            "image": "0",
+            "request": "0",
+            "web_search": "0",
+            "internal_reasoning": "0",
+            "discount": 0
+          },
+          "variable_pricings": [],
+          "is_hidden": false,
+          "is_deranked": false,
+          "is_disabled": false,
+          "supports_tool_parameters": false,
+          "supports_reasoning": false,
+          "supports_multipart": true,
+          "limit_rpm": null,
+          "limit_rpd": null,
+          "limit_rpm_cf": null,
+          "has_completions": true,
+          "has_chat_completions": true,
+          "features": {
+            "supports_document_url": null
+          },
+          "provider_region": null
+        }
+      },
+      "updatedAt": "2025-06-06T06:12:46.081Z",
+      "samplingParameters": {},
+      "isStreaming": true,
+      "maxTokens": 0,
+      "chatMemory": 420,
+      "description": ""
+    }
+  },
+  "messages": {
+    "msg-1749189300-3XB5PAb003NKNJzsy34x": {
+      "characterId": "char-1749188859-Jl0VUgLDynmces7PuCc6",
+      "content": "Over a cup of tea, Ken explained his predicament to Professor Oak without going into his full background as a ghoul. The Professor listened thoughtfully before stating, \"Hmmm, extraordinary. You say you come from another world entirely where Pokemon exist only as fantasy? This requires further study.\"\n\nHe brought Ken over to a high-tech video phone system and said, \"I think it's time we confer with some colleagues of mine who may be able to help shed some light on this mystery.\"  \n\nKen watched curiously as Professor Oak contacted several of the regional Pokemon Professors - Elm, Birch, and Rowan among others. Soon he was explaining his situation again to the group of intrigued scientists while they bombarded him with questions.\n\n\"Fascinating! You say you battled a Pidgeotto using some natural weapons?\" Professor Rowan inquired.\n\n\"Yes, though I tried not to grievously hurt it,\" Ken replied earnestly.\n\n\"Remarkable. His physiology could have some biological connections to Pokemon abilities,\" Professor Elm theorized as he studied Ken closely through the screen.\n\nProfessor Oak held up a hand. \"Now now, let's not overwhelm our visitor. Ken, why don't you stay here in Pallet Town for now while we look into this phenomenon further? I promise we will do everything to find some answers for you.\"  \n\nKen nodded and bowed politely. \"I would appreciate any help you could provide. Thank you for your hospitality.\"\n\nAs the Professors signed off, Oak showed Ken to a small but cozy bedroom in the lab. Ken laid down on the bed, his mind spinning. With the researchers help, could he find his way back home? And what other wondrous and strange secrets might this Pokemon world hold for him? That night, his dreams were filled with vibrant Pokemon of all shapes and sizes.",
+      "id": "msg-1749189300-3XB5PAb003NKNJzsy34x",
+      "updatedAt": "2025-06-06T06:16:32.065Z",
+      "isGenerating": false,
+      "metadata": {
+        "variantSlug": "anthropic/claude-2:beta:beta",
+        "latencyDuration": 1660,
+        "generateDuration": 25568,
+        "tokensCount": 405,
+        "tokensPerSecond": 15.840112640801001,
+        "provider": "Anthropic",
+        "cost": "0.01851696"
+      },
+      "citations": [],
+      "files": [],
+      "isRetrying": false
+    },
+    "msg-1749189300-VVcqnvAeA0JTUrNMed3P": {
+      "characterId": "USER",
+      "content": "They contact the Professor's colleagues",
+      "attachments": [],
+      "isGenerating": false,
+      "id": "msg-1749189300-VVcqnvAeA0JTUrNMed3P",
+      "updatedAt": "2025-06-06T05:55:00.462Z"
+    },
+    "msg-1749189121-lh9T96JjvqYDzdKE8bUM": {
+      "characterId": "char-1749188859-Jl0VUgLDynmces7PuCc6",
+      "content": "Ken managed to defeat the aggressive Pidgeotto, though he felt bad for injuring a creature that was just following its natural instincts. As night fell, he wandered through the forest until he came upon a small town. Many of the houses were dark, but there was one with bright lights shining from its windows. \n\nCautiously, Ken approached what appeared to be a research lab. A sign out front read \"Professor Oak's Pokemon Lab\". Ken's eyes widened in surprise. Professor Oak was one of the most renowned Pokemon experts if the anime was anything to go by. If anyone could help him understand more about this world, it would hopefully be the Professor.  \n\nKen knocked firmly on the front door. After a few moments, it swung open to reveal an elderly man in a white lab coat staring at him in surprise. \"Oh my, we don't get many visitors this late. What brings you here, young man?\"\n\nUnsure of how much he should reveal, Ken cleared his throat. \"I seem to be lost in this region and new to the world of Pokemon. Are you Professor Oak? I was hoping you could help me understand more about Pokemon and how I ended up here.\"\n\nProfessor Oak's eyes lit up. \"Indeed I am! And any fellow lover of Pokemon is welcome here. Please, come inside. I just put on a pot of tea...\"\n\nKen followed Oak cautiously inside. The interior of the lab was just as high-tech as it appeared in the anime, filled with machines for studying Pokemon. What answers would the Professor be able to provide about this world he now found himself in, he wondered...",
+      "id": "msg-1749189121-lh9T96JjvqYDzdKE8bUM",
+      "updatedAt": "2025-06-06T06:15:23.167Z",
+      "isGenerating": false,
+      "metadata": {
+        "variantSlug": "anthropic/claude-2:beta:beta",
+        "latencyDuration": 1669,
+        "generateDuration": 21887,
+        "tokensCount": 349,
+        "tokensPerSecond": 15.945538447480239,
+        "provider": "Anthropic",
+        "cost": "0.01434312"
+      },
+      "citations": [],
+      "files": [],
+      "isRetrying": false
+    },
+    "msg-1749189121-cy9c25qZmosw6BwyNiV3": {
+      "characterId": "USER",
+      "content": "Kaneki arrives at Professor Oak's lab",
+      "attachments": [],
+      "isGenerating": false,
+      "id": "msg-1749189121-cy9c25qZmosw6BwyNiV3",
+      "updatedAt": "2025-06-06T05:52:01.699Z"
+    },
+    "msg-1749189041-f5o3SLBVgqNrgdimwNyI": {
+      "characterId": "char-1749188859-Jl0VUgLDynmces7PuCc6",
+      "content": "Ken spent the next few hours wandering through the forest, taking in the sights and sounds of the unfamiliar yet wondrous Pokemon world. He spotted strange creatures he had only ever seen before on TV or in games. Caterpies and Weedles crawled across the forest floor, while Zigzagoons and Lillipups darted through the underbrush.\n\nThe array of scents was also overpowering to Ken's heightened ghoul senses. His stomach growled involuntarily as he caught the mouthwatering smells of the Pokemon all around him. However, he fought back his hunger. These creatures were innocent and he didn't want to resort to hunting them, no matter how tantalizing they smelled. \n\nAs night fell, Ken came across a small pond. He paused to take a drink and splash some water on his face, feeling overwhelmed. \"I don't even know where to start in a world like this...\" he muttered.\n\nJust then, a loud cry rang out through the twilight air. \"Pidgodgeotto!\" A large bird Pokemon burst from the treetops, swooping down talons-first towards Ken with aggressive intent. Caught by surprise, he leapt back just as the Pokemon attacked. Its talons raked his shoulder instead of hitting dead-on.  \n\nNarrowing his eyes, Ken unleashed his rinkaku kagune tentacles to counter the aggressive Pokemon. If it was a fight this strange bird wanted, then he would oblige. The Pokemon world was proving to be dangerous as well as mystifying. But Ken Kaneki wasn't one to back down from a battle...",
+      "id": "msg-1749189041-f5o3SLBVgqNrgdimwNyI",
+      "updatedAt": "2025-06-06T06:14:03.192Z",
+      "isGenerating": false,
+      "metadata": {
+        "variantSlug": "anthropic/claude-2:beta:beta",
+        "latencyDuration": 1314,
+        "generateDuration": 21898,
+        "tokensCount": 350,
+        "tokensPerSecond": 15.983194812311627,
+        "provider": "Anthropic",
+        "cost": "0.01149192"
+      },
+      "citations": [],
+      "files": [],
+      "isRetrying": false
+    },
+    "msg-1749189041-qNgVh5NDVWMlyXUAIXiA": {
+      "characterId": "USER",
+      "content": "Continue",
+      "attachments": [],
+      "isGenerating": false,
+      "id": "msg-1749189041-qNgVh5NDVWMlyXUAIXiA",
+      "updatedAt": "2025-06-06T05:50:41.901Z"
+    },
+    "msg-1749188952-VZ5sWSN1LMZggYgi8rAm": {
+      "characterId": "char-1749188859-Jl0VUgLDynmces7PuCc6",
+      "content": "Here is a story with the requested premise of Ken Kaneki from Tokyo Ghoul being teleported to the Pokemon world:\n\nKen blinked his eyes slowly as he took in his strange surroundings. One moment he had been walking the streets of Tokyo, and the next he found himself in the middle of a lush forest. The smells of plants and earth filled the air instead of the usual city smog.\n\n\"Where...am I?\" he muttered to himself. He tensed as he heard a rustling in the bushes behind him. Ken turned swiftly, ready to unleash his kagune if it was a threat. \n\nInstead of an enemy ghoul or CCG investigator, a small yellow rodent-like creature stumbled out of the brush. It had red pouches on its cheeks and a tail shaped like a lightning bolt. \"Pikachu!\" it squeaked, staring at Ken in curiosity.\n\nKen froze in surprise. \"A Pikachu? But those only exist in games and anime...\" The facts clicked in his mind. \"I've been teleported to the Pokemon world somehow.\"\n\nHe looked around the lush forest again. It seemed peaceful and quiet, with bird Pokemon chirping in the trees. A world full of magical creatures was a lot to take in. But it was also...intriguing. Ken allowed himself a small smile. Perhaps this strange new world would not be so bad after all.\n\nThe Pikachu tilted its head as it gazed at the strange newcomer. Then, its cheeks sparked with electricity as it gave Ken a warning shock for good measure before scampering back into the forest bushes. Ken sighed. Meeting the locals here might take some getting used to...",
+      "id": "msg-1749188952-VZ5sWSN1LMZggYgi8rAm",
+      "updatedAt": "2025-06-06T06:13:15.890Z",
+      "isGenerating": false,
+      "metadata": {
+        "variantSlug": "anthropic/claude-2:beta:beta",
+        "latencyDuration": 1436,
+        "generateDuration": 22771,
+        "tokensCount": 365,
+        "tokensPerSecond": 16.029159896359403,
+        "provider": "Anthropic",
+        "cost": "0.00891792"
+      },
+      "citations": [],
+      "files": [],
+      "isRetrying": false
+    },
+    "msg-1749188952-yiyB36H8ey8UADonSIrU": {
+      "characterId": "USER",
+      "content": "Hello. Please write a story where Ken Kaneki is suddenly teleported to the Pokemon world thanks.",
+      "attachments": [],
+      "isGenerating": false,
+      "id": "msg-1749188952-yiyB36H8ey8UADonSIrU",
+      "updatedAt": "2025-06-06T05:49:12.740Z"
+    }
+  }
+}
