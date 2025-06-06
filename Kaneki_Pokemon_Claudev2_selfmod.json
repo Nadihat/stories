@@ -1,0 +1,281 @@
+{
+  "version": "orpg.1.0",
+  "characters": {
+    "char-1749188859-Jl0VUgLDynmces7PuCc6": {
+      "id": "char-1749188859-Jl0VUgLDynmces7PuCc6",
+      "model": "anthropic/claude-2.0:beta",
+      "modelInfo": {
+        "slug": "anthropic/claude-2.0",
+        "hf_slug": null,
+        "updated_at": "2025-03-28T03:20:30.853469+00:00",
+        "created_at": "2023-07-28T00:00:00+00:00",
+        "hf_updated_at": null,
+        "name": "Anthropic: Claude v2.0 (self-moderated)",
+        "short_name": "Claude v2.0 (self-moderated)",
+        "author": "anthropic",
+        "description": "Anthropic's flagship model. Superior performance on tasks that require complex reasoning. Supports hundreds of pages of text.",
+        "model_version_group_id": null,
+        "context_length": 100000,
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "has_text_output": true,
+        "group": "Claude",
+        "instruct_type": null,
+        "default_system": null,
+        "default_stops": [],
+        "hidden": false,
+        "router": null,
+        "warning_message": null,
+        "permaslug": "anthropic/claude-2.0",
+        "reasoning_config": null,
+        "features": {},
+        "endpoint": {
+          "id": "330f59d5-67e2-4ab5-b8df-80bbfc1aaf84",
+          "name": "Anthropic | anthropic/claude-2.0:beta",
+          "context_length": 100000,
+          "model": {
+            "slug": "anthropic/claude-2.0",
+            "hf_slug": null,
+            "updated_at": "2025-03-28T03:20:30.853469+00:00",
+            "created_at": "2023-07-28T00:00:00+00:00",
+            "hf_updated_at": null,
+            "name": "Anthropic: Claude v2.0",
+            "short_name": "Claude v2.0",
+            "author": "anthropic",
+            "description": "Anthropic's flagship model. Superior performance on tasks that require complex reasoning. Supports hundreds of pages of text.",
+            "model_version_group_id": null,
+            "context_length": 100000,
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "has_text_output": true,
+            "group": "Claude",
+            "instruct_type": null,
+            "default_system": null,
+            "default_stops": [],
+            "hidden": false,
+            "router": null,
+            "warning_message": null,
+            "permaslug": "anthropic/claude-2.0",
+            "reasoning_config": null,
+            "features": {}
+          },
+          "model_variant_slug": "anthropic/claude-2.0:beta",
+          "model_variant_permaslug": "anthropic/claude-2.0:beta",
+          "provider_name": "Anthropic",
+          "provider_info": {
+            "name": "Anthropic",
+            "displayName": "Anthropic",
+            "slug": "anthropic",
+            "baseUrl": "url",
+            "dataPolicy": {
+              "termsOfServiceURL": "https://www.anthropic.com/legal/commercial-terms",
+              "privacyPolicyURL": "https://www.anthropic.com/legal/privacy",
+              "paidModels": {
+                "training": false,
+                "retainsPrompts": true,
+                "retentionDays": 30
+              },
+              "requiresUserIDs": true
+            },
+            "headquarters": "US",
+            "hasChatCompletions": true,
+            "hasCompletions": true,
+            "isAbortable": true,
+            "moderationRequired": true,
+            "editors": [
+              "{}"
+            ],
+            "owners": [
+              "{}"
+            ],
+            "isMultipartSupported": true,
+            "statusPageUrl": "https://status.anthropic.com/",
+            "byokEnabled": true,
+            "icon": {
+              "url": "/images/icons/Anthropic.svg"
+            },
+            "ignoredProviderModels": []
+          },
+          "provider_display_name": "Anthropic",
+          "provider_slug": "anthropic",
+          "provider_model_id": "claude-2.0",
+          "quantization": "unknown",
+          "variant": "beta",
+          "is_free": false,
+          "can_abort": true,
+          "max_prompt_tokens": null,
+          "max_completion_tokens": 4096,
+          "max_prompt_images": null,
+          "max_tokens_per_image": null,
+          "supported_parameters": [
+            "max_tokens",
+            "temperature",
+            "top_p",
+            "top_k",
+            "stop"
+          ],
+          "is_byok": false,
+          "moderation_required": false,
+          "data_policy": {
+            "termsOfServiceURL": "https://www.anthropic.com/legal/commercial-terms",
+            "privacyPolicyURL": "https://www.anthropic.com/legal/privacy",
+            "paidModels": {
+              "training": false,
+              "retainsPrompts": true,
+              "retentionDays": 30
+            },
+            "requiresUserIDs": true,
+            "training": false,
+            "retainsPrompts": true,
+            "retentionDays": 30
+          },
+          "pricing": {
+            "prompt": "0.000008",
+            "completion": "0.000024",
+            "image": "0",
+            "request": "0",
+            "web_search": "0",
+            "internal_reasoning": "0",
+            "discount": 0
+          },
+          "variable_pricings": [],
+          "is_hidden": false,
+          "is_deranked": false,
+          "is_disabled": false,
+          "supports_tool_parameters": false,
+          "supports_reasoning": false,
+          "supports_multipart": true,
+          "limit_rpm": null,
+          "limit_rpd": null,
+          "limit_rpm_cf": null,
+          "has_completions": true,
+          "has_chat_completions": true,
+          "features": {
+            "supports_document_url": null
+          },
+          "provider_region": null
+        }
+      },
+      "updatedAt": "2025-06-06T05:55:20.473Z",
+      "samplingParameters": {},
+      "isStreaming": true,
+      "maxTokens": 0,
+      "chatMemory": 420,
+      "description": ""
+    }
+  },
+  "messages": {
+    "msg-1749189300-3XB5PAb003NKNJzsy34x": {
+      "characterId": "char-1749188859-Jl0VUgLDynmces7PuCc6",
+      "content": "Professor Oak immediately got on the phone and contacted his colleagues - experts in fields like quantum physics, paranormal phenomena, and space-time manipulation. Within a few hours, several professors had arrived at the lab, eager to hear Kaneki's story firsthand.\n\nThey asked him more detailed questions about the exact moment he was transported and the sensation of passing through the portal. They took measurements of ambient energy in the lab and around Kaneki himself to look for anomalies. The professors debated amongst themselves late into the night, writing equations on whiteboards and flipping through dusty books for clues.\n\nAt last, one scientist named Professor Willow hypothesized a device that could amplify Kaneki's energy signature and essentially reverse the process that brought him there. It would take time to build but it was the first concrete plan they had. \n\nIn the meantime, Kaneki stayed with Professor Oak and helped around the lab, learning more about this new world he found himself in. The kindness and wisdom of the professors gave him hope - with their brilliant minds at work, Kaneki believed he would find a way home soon. He missed Touka and the rest of his friends and couldn't wait to tell them of his crazy adventure.\n\nAfter a week of complex construction and calibration, the device was finally ready. Kaneki stood in the center of the room as it hummed to life, surrounding him in a familiar glowing aura. This time when the light faded, he found himself back in the Tokyo alleyway as if no time had passed. Kaneki smiled, overjoyed to return but appreciative of the scientists who made it possible. He would never forget his brief glimpse into another world.",
+      "id": "msg-1749189300-3XB5PAb003NKNJzsy34x",
+      "updatedAt": "2025-06-06T05:55:14.502Z",
+      "isGenerating": false,
+      "metadata": {
+        "variantSlug": "anthropic/claude-2.0:beta:beta",
+        "latencyDuration": 1582,
+        "generateDuration": 12434,
+        "tokensCount": 352,
+        "tokensPerSecond": 28.3094740228406,
+        "provider": "Anthropic",
+        "cost": "0.01842192"
+      },
+      "citations": [],
+      "files": []
+    },
+    "msg-1749189300-VVcqnvAeA0JTUrNMed3P": {
+      "characterId": "USER",
+      "content": "They contact the Professor's colleagues",
+      "attachments": [],
+      "isGenerating": false,
+      "id": "msg-1749189300-VVcqnvAeA0JTUrNMed3P",
+      "updatedAt": "2025-06-06T05:55:00.462Z"
+    },
+    "msg-1749189121-lh9T96JjvqYDzdKE8bUM": {
+      "characterId": "char-1749188859-Jl0VUgLDynmces7PuCc6",
+      "content": "Kaneki walked up the steps to the front door of the large building that supposedly belonged to Professor Oak. He hesitated for a moment, wondering if the professor would even believe his story, before taking a deep breath and knocking. \n\nAfter a few seconds, the door swung open, revealing an older man with gray hair and a kindly face. He wore a white lab coat and looked at Kaneki curiously.\n\n\"Hello there! Can I help you?\" he asked.\n\nKaneki rubbed the back of his neck awkwardly. \"Um, are you Professor Oak? I was told you might be able to help me. You see, I'm not from this world. I come from a place called Tokyo, and I have no idea how I got here or how to get back home.\"\n\nProfessor Oak's eyebrows shot up in surprise. \"Not from this world, you say? How fascinating! Please, come in and tell me more about this Tokyo place of yours.\"\n\nHe stepped aside and ushered Kaneki into his lab. Kaneki looked around in wonder at all the high tech equipment and shelves full of books. \n\n\"Now then,\" said Professor Oak, sitting down across from Kaneki. \"Start from the beginning and tell me everything...\"\n\nKaneki dove into his story, explaining how he had just been walking home from work in modern-day Tokyo when a strange light transported him here. The Professor listened intently, occasionally stopping to ask questions but never doubting Kaneki's account.\n\n\"Parallel worlds and interdimensional travel...I've theorized such things may be possible but never seen proof until now!\" Professor Oak exclaimed excitedly once Kaneki finished his tale. \"Don't worry my boy, we'll figure out a way to get you back home. I have some colleagues who may be able to help. In the meantime, make yourself at home!\"\n\nKaneki felt a wave of relief wash over him. If anyone could help him, it was this kindly professor.",
+      "id": "msg-1749189121-lh9T96JjvqYDzdKE8bUM",
+      "updatedAt": "2025-06-06T05:52:16.095Z",
+      "isGenerating": false,
+      "metadata": {
+        "variantSlug": "anthropic/claude-2.0:beta:beta",
+        "latencyDuration": 1656,
+        "generateDuration": 12723,
+        "tokensCount": 431,
+        "tokensPerSecond": 33.87565825670046,
+        "provider": "Anthropic",
+        "cost": "0.01680624"
+      },
+      "citations": [],
+      "files": []
+    },
+    "msg-1749189121-cy9c25qZmosw6BwyNiV3": {
+      "characterId": "USER",
+      "content": "Kaneki arrives at Professor Oak's lab",
+      "attachments": [],
+      "isGenerating": false,
+      "id": "msg-1749189121-cy9c25qZmosw6BwyNiV3",
+      "updatedAt": "2025-06-06T05:52:01.699Z"
+    },
+    "msg-1749189041-f5o3SLBVgqNrgdimwNyI": {
+      "characterId": "char-1749188859-Jl0VUgLDynmces7PuCc6",
+      "content": "Kaneki wandered through the dense forest, taking in the sights and sounds of the unfamiliar world around him. More strange creatures emerged from the trees and underbrush as he walked. Some eyed him warily, others with curiosity, as they chattered in their unique languages.\n\nAfter what felt like hours, Kaneki finally came upon a dirt road cutting through the woods. In the distance, he could see a small town, smoke rising from chimneys and people milling about. As he entered the town, people turned to stare and poke each other, whispering about the stranger in their midst. \n\nKaneki approached a man standing outside what looked like a supply shop. \"Excuse me, can you tell me where I am?\" he asked.\n\nThe man scratched his head and responded, \"Why, you're in Pallet Town! This here's the Kanto region.\"\n\nKaneki's brow furrowed in thought. Kanto region? He really was lost in another world entirely. \n\n\"I'm...not from around here,\" Kaneki explained. \"I need to find someone who can help me get back home, to Tokyo.\"\n\nThe man's eyes widened in surprise. \"Tokyo? Can't say I've ever heard of such a place. You should talk to Professor Oak - he's the expert on these parts and all kinds of odd happenings.\"\n\nKaneki thanked the man and headed in the direction he pointed towards a large building on a hill. If anyone could make sense of his predicament and find a way to get him home, it would hopefully be this Professor Oak. Kaneki steeled himself, ready to convince the Professor of the truth no matter how unbelievable it seemed.",
+      "id": "msg-1749189041-f5o3SLBVgqNrgdimwNyI",
+      "updatedAt": "2025-06-06T05:50:56.142Z",
+      "isGenerating": false,
+      "metadata": {
+        "variantSlug": "anthropic/claude-2.0:beta:beta",
+        "latencyDuration": 1842,
+        "generateDuration": 12382,
+        "tokensCount": 370,
+        "tokensPerSecond": 29.882086900339203,
+        "provider": "Anthropic",
+        "cost": "0.01232352"
+      },
+      "citations": [],
+      "files": []
+    },
+    "msg-1749189041-qNgVh5NDVWMlyXUAIXiA": {
+      "characterId": "USER",
+      "content": "Continue",
+      "attachments": [],
+      "isGenerating": false,
+      "id": "msg-1749189041-qNgVh5NDVWMlyXUAIXiA",
+      "updatedAt": "2025-06-06T05:50:41.901Z"
+    },
+    "msg-1749188952-VZ5sWSN1LMZggYgi8rAm": {
+      "characterId": "char-1749188859-Jl0VUgLDynmces7PuCc6",
+      "content": "Here is a story where Ken Kaneki from Tokyo Ghoul is teleported to the Pokemon world:\n\nKen Kaneki was walking down the streets of Tokyo one evening after a long day of work at Anteiku. The sky was growing dark and he was eager to get home. As he turned a corner into an alleyway, a strange light suddenly enveloped him. Kaneki shielded his eyes, unable to see anything through the blinding glow. \n\nWhen the light faded, Kaneki found himself no longer in the alley but standing in the middle of a lush forest. \"Where am I?\" he wondered aloud as he looked around in confusion. The trees were unlike any he had seen before and colorful bird-like creatures chirped from their branches.\n\n\"Pidgey?\" one of the birds tilted its head at Kaneki curiously.\n\n\"Did you just...talk?\" Kaneki asked in astonishment. The Pidgey simply ruffled its feathers in response. \n\nJust then, Kaneki heard a rustling in the bushes behind him. He turned around swiftly, ready to defend himself if needed. A small yellow rodent leapt out, sparks flying from its red cheeks. \"Pikachu!\" it cried.\n\nKaneki's eyes widened in surprise. \"Wait a minute...am I in the world of Pokemon?\" he murmured. Things were starting to make sense now. The talking bird creatures, the electric rodents - this had to be the Pokemon world he had heard so much about. \n\nWhile part of Kaneki was amazed, another part was worried. He didn't belong here. He needed to find a way back home to Tokyo. As a Pidgey landed on his shoulder, Kaneki made his way through the forest, hoping to find someone who could help him return to his own world. His unexpected adventure in the Pokemon world was only just beginning.",
+      "id": "msg-1749188952-VZ5sWSN1LMZggYgi8rAm",
+      "updatedAt": "2025-06-06T05:49:26.202Z",
+      "isGenerating": false,
+      "metadata": {
+        "variantSlug": "anthropic/claude-2.0:beta:beta",
+        "latencyDuration": 1210,
+        "generateDuration": 12231,
+        "tokensCount": 410,
+        "tokensPerSecond": 33.521380099746544,
+        "provider": "Anthropic",
+        "cost": "0.00998712"
+      },
+      "citations": [],
+      "files": []
+    },
+    "msg-1749188952-yiyB36H8ey8UADonSIrU": {
+      "characterId": "USER",
+      "content": "Hello. Please write a story where Ken Kaneki is suddenly teleported to the Pokemon world thanks.",
+      "attachments": [],
+      "isGenerating": false,
+      "id": "msg-1749188952-yiyB36H8ey8UADonSIrU",
+      "updatedAt": "2025-06-06T05:49:12.740Z"
+    }
+  }
+}
